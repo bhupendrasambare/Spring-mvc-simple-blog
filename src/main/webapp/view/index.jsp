@@ -39,7 +39,7 @@
 			<div class="row">
 				<div class="col-md-5 wrapthumbnail">
 					<a href="post?id=<%= b.getId()%>">
-						<div class="thumbnail" style="background-image:url(assets/img/demopic/<%= b.getImage()%>);">
+						<div class="thumbnail" style="background-image:url(assets/img/blog/<%= b.getImage()%>);">
 						</div>
 					</a>
 				</div>
@@ -87,7 +87,7 @@
 		<!-- begin post -->
 		<div class="card">
 			<a href="post?id=<%= b.getId()%>">
-				<img class="img-fluid" src="assets/img/demopic/<%= b.getImage()%>" alt="">
+				<img class="img-fluid" src="assets/img/blog/<%= b.getImage()%>" alt="">
 			</a>
 			<div class="card-block">
 				<h2 class="card-title"><a href="post?id=<%= b.getId()%>"><%=b.getName() %></a></h2>

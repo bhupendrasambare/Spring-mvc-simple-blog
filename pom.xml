@@ -3,10 +3,13 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>blog.simple</groupId>
   <artifactId>SimpleBlog</artifactId>
-  <packaging>war</packaging>
+  <packaging>jar</packaging>
   <version>0.0.1-SNAPSHOT</version>
   <name>SimpleBlog Maven Webapp</name>
   <url>http://maven.apache.org</url>
+  	<properties>
+		<java.version>1.8</java.version>
+	</properties>
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
@@ -14,7 +17,7 @@
       <version>3.8.1</version>
       <scope>test</scope>
     </dependency>
-      
+    
     <!-- https://mvnrepository.com/artifact/org.springframework/spring-webmvc -->  
 	<dependency>  
 	    <groupId>org.springframework</groupId>  
@@ -60,12 +63,12 @@
   </dependencies>
   <build>
     <finalName>SimpleBlog</finalName>
-    <plugins>
+    <!-- <plugins>
        	<plugin>
 	       	<artifactId>maven-war-plugin</artifactId>
 	       	<version>3.2.3</version>
    		</plugin>
 		    
-    </plugins>
+    </plugins> -->
   </build>
 </project>
